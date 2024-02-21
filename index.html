@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GitHub User Statistics</title>
+    <title>Git Stats Board</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>GitHub User Statistics</h1>
-    <form action="/stats" method="POST">
-        <label for="usernames">Enter GitHub usernames separated by a space:</label>
-        <input type="text" name="usernames" id="usernames">
-        <button type="submit">Get Statistics</button>
-    </form>
+    <header>
+        <div class="container">
+            <h1>Git Stats Board</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <img src="cover-image.jpg" alt="Cover Image">
+            <h2>Get insights into your GitHub activity</h2>
+            <p>Git Stats Board is a web application that displays GitHub user statistics in an easy-to-read format. With Git Stats Board, you can track your progress, identify trends, and stay motivated.</p>
+            <a href="https://github.com/CTHartze/Git_Stats_Board" class="button">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="feature-1.jpg" alt="Feature 1">
+                <h3>Language Breakdown</h3>
+                <p>See which programming languages you use the most in your repositories.</p>
+            </div>
+            <div class="feature">
+                <img src="feature-2.jpg" alt="Feature 2">
+                <h3>Commit History</h3>
+                <p>Track your commit history over time and see how your activity changes.</p>
+            </div>
+            <div class="feature">
+                <img src="feature-3.jpg" alt="Feature 3">
+                <h3>Repository Overview</h3>
+                <p>Get an overview of your repositories, including stars, forks, and issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Git Stats Board</h2>
+            <p>Git Stats Board was inspired by the need for a simple and intuitive way to track GitHub activity. The project was developed over a period of 3 weeks as a Portfolio Project for Holberton School.</p>
+            <p>Connect with me on LinkedIn, GitHub, and Twitter:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/cayden-hartze/">LinkedIn</a></li>
+                <li><a href="https://github.com/CTHartze">GitHub</a></li>
+                <li><a href="https://twitter.com/caydenhartze">Twitter</a></li>
+            </ul>
+            <a href="https://github.com/CTHartze/Git_Stats_Board" class="button">View on GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Git Stats Board</p>
+        </div>
+    </footer>
 </body>
 </html>
