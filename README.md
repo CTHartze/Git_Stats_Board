@@ -4,10 +4,10 @@ As a software engineering student, my goal was to create a project that would al
 
 <img src="cover-image.png">
 
-##Links:
+## Links:
 - <a href="https://cthartze.github.io/Git_Stats_Board/">Deployed site</a>
 - <a href="https://www.linkedin.com/posts/cayden-hartze_project-blog-github-stats-dashboard-as-a-activity-7165628171915137025-sep3?utm_source=share&utm_medium=member_desktop">Blog article</a>
 - <a href="https://www.linkedin.com/in/cayden-hartze/">LinkedIn</a>
 
-##Usage:
+## Usage:
 - ```python3 multiple_user_stats.py```
